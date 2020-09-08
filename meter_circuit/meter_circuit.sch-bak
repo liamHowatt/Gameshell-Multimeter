@@ -1,0 +1,595 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Isolator:PC817 U3
+U 1 1 5EC69DDA
+P 4400 3300
+F 0 "U3" H 4400 3625 50  0000 C CNN
+F 1 "PC817" H 4400 3534 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 4200 3100 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 4400 3300 50  0001 L CNN
+	1    4400 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:PC817 U4
+U 1 1 5EC83588
+P 4400 3850
+F 0 "U4" H 4400 4175 50  0000 C CNN
+F 1 "PC817" H 4400 4084 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 4200 3650 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 4400 3850 50  0001 L CNN
+	1    4400 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:PC817 U2
+U 1 1 5EC839ED
+P 4400 2750
+F 0 "U2" H 4400 3075 50  0000 C CNN
+F 1 "PC817" H 4400 2984 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 4200 2550 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 4400 2750 50  0001 L CNN
+	1    4400 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:PC817 U1
+U 1 1 5EC83D4F
+P 4400 2200
+F 0 "U1" H 4400 2525 50  0000 C CNN
+F 1 "PC817" H 4400 2434 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 4200 2000 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 4400 2200 50  0001 L CNN
+	1    4400 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5EC8A806
+P 3900 2100
+F 0 "R3" V 3693 2100 50  0000 C CNN
+F 1 "1k" V 3784 2100 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3830 2100 50  0001 C CNN
+F 3 "~" H 3900 2100 50  0001 C CNN
+	1    3900 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L meter_circuit:GS_HEADER H1
+U 1 1 5EC84CD1
+P 3200 2800
+F 0 "H1" H 2987 3675 50  0000 C CNN
+F 1 "GS_HEADER" H 2987 3584 50  0000 C CNN
+F 2 "meter_circuit:GSbus" H 3200 3200 50  0001 C CNN
+F 3 "" H 3200 3200 50  0001 C CNN
+	1    3200 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5EC90E2F
+P 4050 2300
+F 0 "#PWR04" H 4050 2050 50  0001 C CNN
+F 1 "GND" V 4055 2172 50  0000 R CNN
+F 2 "" H 4050 2300 50  0001 C CNN
+F 3 "" H 4050 2300 50  0001 C CNN
+	1    4050 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5EC92DF5
+P 4050 2850
+F 0 "#PWR05" H 4050 2600 50  0001 C CNN
+F 1 "GND" V 4055 2722 50  0000 R CNN
+F 2 "" H 4050 2850 50  0001 C CNN
+F 3 "" H 4050 2850 50  0001 C CNN
+	1    4050 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5EC93EB5
+P 4050 3400
+F 0 "#PWR06" H 4050 3150 50  0001 C CNN
+F 1 "GND" V 4055 3272 50  0000 R CNN
+F 2 "" H 4050 3400 50  0001 C CNN
+F 3 "" H 4050 3400 50  0001 C CNN
+	1    4050 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5EC942E6
+P 4050 3950
+F 0 "#PWR07" H 4050 3700 50  0001 C CNN
+F 1 "GND" V 4055 3822 50  0000 R CNN
+F 2 "" H 4050 3950 50  0001 C CNN
+F 3 "" H 4050 3950 50  0001 C CNN
+	1    4050 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5EC9459E
+P 3900 2650
+F 0 "R4" V 3693 2650 50  0000 C CNN
+F 1 "1k" V 3784 2650 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3830 2650 50  0001 C CNN
+F 3 "~" H 3900 2650 50  0001 C CNN
+	1    3900 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5EC94A5C
+P 3900 3200
+F 0 "R5" V 3693 3200 50  0000 C CNN
+F 1 "1k" V 3784 3200 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3830 3200 50  0001 C CNN
+F 3 "~" H 3900 3200 50  0001 C CNN
+	1    3900 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5EC94C88
+P 3900 3750
+F 0 "R6" V 3693 3750 50  0000 C CNN
+F 1 "1k" V 3784 3750 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3830 3750 50  0001 C CNN
+F 3 "~" H 3900 3750 50  0001 C CNN
+	1    3900 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5EC94F18
+P 3150 4350
+F 0 "R1" H 3080 4304 50  0000 R CNN
+F 1 "10k" H 3080 4395 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3080 4350 50  0001 C CNN
+F 3 "~" H 3150 4350 50  0001 C CNN
+	1    3150 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5EC9523E
+P 3450 4350
+F 0 "R2" H 3380 4304 50  0000 R CNN
+F 1 "10k" H 3380 4395 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3380 4350 50  0001 C CNN
+F 3 "~" H 3450 4350 50  0001 C CNN
+	1    3450 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5EC9553D
+P 3150 4550
+F 0 "#PWR01" H 3150 4300 50  0001 C CNN
+F 1 "GND" H 3155 4377 50  0000 C CNN
+F 2 "" H 3150 4550 50  0001 C CNN
+F 3 "" H 3150 4550 50  0001 C CNN
+	1    3150 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5EC9597F
+P 3450 4550
+F 0 "#PWR03" H 3450 4300 50  0001 C CNN
+F 1 "GND" H 3455 4377 50  0000 C CNN
+F 2 "" H 3450 4550 50  0001 C CNN
+F 3 "" H 3450 4550 50  0001 C CNN
+	1    3450 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 5EC9B74C
+P 5800 4050
+F 0 "#PWR011" H 5800 3800 50  0001 C CNN
+F 1 "GND" H 5805 3877 50  0000 C CNN
+F 2 "" H 5800 4050 50  0001 C CNN
+F 3 "" H 5800 4050 50  0001 C CNN
+	1    5800 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5EC9D288
+P 3350 2450
+F 0 "#PWR02" H 3350 2200 50  0001 C CNN
+F 1 "GND" V 3355 2322 50  0000 R CNN
+F 2 "" H 3350 2450 50  0001 C CNN
+F 3 "" H 3350 2450 50  0001 C CNN
+	1    3350 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5EC9D4F8
+P 5650 4050
+F 0 "#PWR010" H 5650 3800 50  0001 C CNN
+F 1 "GND" H 5655 3877 50  0000 C CNN
+F 2 "" H 5650 4050 50  0001 C CNN
+F 3 "" H 5650 4050 50  0001 C CNN
+	1    5650 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L meter_circuit:jack_pin H3
+U 1 1 5EC9E9F4
+P 7400 4800
+F 0 "H3" V 7441 4572 50  0000 R CNN
+F 1 "jack_pin" V 7350 4572 50  0000 R CNN
+F 2 "meter_circuit:jack_pin" H 7400 4800 50  0001 C CNN
+F 3 "" H 7400 4800 50  0001 C CNN
+	1    7400 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5EC9F62B
+P 8150 4900
+F 0 "R10" H 8080 4854 50  0000 R CNN
+F 1 "3.3k" H 8080 4945 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8080 4900 50  0001 C CNN
+F 3 "~" H 8150 4900 50  0001 C CNN
+	1    8150 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 5ECA018B
+P 8150 5300
+F 0 "R11" H 8080 5254 50  0000 R CNN
+F 1 "2k" H 8080 5345 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8080 5300 50  0001 C CNN
+F 3 "~" H 8150 5300 50  0001 C CNN
+	1    8150 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5ECA23CE
+P 7250 5450
+F 0 "R9" H 7180 5404 50  0000 R CNN
+F 1 "2k" H 7180 5495 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7180 5450 50  0001 C CNN
+F 3 "~" H 7250 5450 50  0001 C CNN
+	1    7250 5450
+	-1   0    0    1   
+$EndComp
+$Comp
+L meter_circuit:shunt R8
+U 1 1 5ECA7322
+P 6850 5100
+F 0 "R8" V 6804 5188 50  0000 L CNN
+F 1 "shunt" V 6895 5188 50  0000 L CNN
+F 2 "meter_circuit:1W2shunt" H 6850 5100 50  0001 C CNN
+F 3 "" H 6850 5100 50  0001 C CNN
+	1    6850 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 5ECA870A
+P 7250 3850
+F 0 "#PWR013" H 7250 3600 50  0001 C CNN
+F 1 "GND" H 7255 3677 50  0000 C CNN
+F 2 "" H 7250 3850 50  0001 C CNN
+F 3 "" H 7250 3850 50  0001 C CNN
+	1    7250 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L MCU_Module:Arduino_Nano_v3.x A1
+U 1 1 5EC81D29
+P 5650 3000
+F 0 "A1" H 5650 1700 50  0000 C CNN
+F 1 "Arduino_Nano_v3.x" H 5650 1600 50  0000 C CNN
+F 2 "Module:Arduino_Nano" H 5650 3000 50  0001 C CIN
+F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 5650 3000 50  0001 C CNN
+	1    5650 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L meter_circuit:2P2T_ON_OFF_ON S2
+U 1 1 5ECBA904
+P 7250 4300
+F 0 "S2" H 7528 4346 50  0000 L CNN
+F 1 "2P2T_ON_OFF_ON" H 7528 4255 50  0000 L CNN
+F 2 "meter_circuit:2p2t" H 7250 4300 50  0001 C CNN
+F 3 "" H 7250 4300 50  0001 C CNN
+	1    7250 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 4700 8150 4700
+Wire Wire Line
+	8150 4700 8150 4750
+Wire Wire Line
+	8150 5050 8150 5100
+Wire Wire Line
+	6650 4700 7100 4700
+Wire Wire Line
+	4050 3750 4100 3750
+Wire Wire Line
+	4050 3200 4100 3200
+Wire Wire Line
+	4050 2650 4100 2650
+Wire Wire Line
+	4050 2100 4100 2100
+Wire Wire Line
+	3300 2250 3550 2250
+Wire Wire Line
+	3550 2250 3550 2100
+Wire Wire Line
+	3550 2100 3750 2100
+Wire Wire Line
+	3300 2350 3700 2350
+Wire Wire Line
+	3700 2350 3700 2650
+Wire Wire Line
+	3700 2650 3750 2650
+$Comp
+L power:GND #PWR08
+U 1 1 5ED026DF
+P 4750 2300
+F 0 "#PWR08" H 4750 2050 50  0001 C CNN
+F 1 "GND" V 4755 2172 50  0000 R CNN
+F 2 "" H 4750 2300 50  0001 C CNN
+F 3 "" H 4750 2300 50  0001 C CNN
+	1    4750 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 5ED055BC
+P 4750 2850
+F 0 "#PWR09" H 4750 2600 50  0001 C CNN
+F 1 "GND" V 4755 2722 50  0000 R CNN
+F 2 "" H 4750 2850 50  0001 C CNN
+F 3 "" H 4750 2850 50  0001 C CNN
+	1    4750 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5150 2600 5050 2600
+Wire Wire Line
+	5050 2600 5050 2100
+Wire Wire Line
+	5050 2100 4700 2100
+Wire Wire Line
+	5150 2700 4900 2700
+Wire Wire Line
+	4900 2700 4900 2650
+Wire Wire Line
+	4900 2650 4700 2650
+Wire Wire Line
+	5150 2800 5000 2800
+Wire Wire Line
+	5000 2800 5000 3050
+Wire Wire Line
+	5000 3050 3750 3050
+Wire Wire Line
+	3750 3050 3750 3200
+Wire Wire Line
+	5150 2900 5050 2900
+Wire Wire Line
+	5050 2900 5050 3600
+Wire Wire Line
+	5050 3600 3750 3600
+Wire Wire Line
+	3750 3600 3750 3750
+Wire Wire Line
+	3300 2550 3650 2550
+Wire Wire Line
+	3650 2550 3650 3500
+Wire Wire Line
+	3650 3500 3700 3500
+Wire Wire Line
+	4700 3500 4700 3400
+Wire Wire Line
+	3300 2650 3600 2650
+Wire Wire Line
+	3600 2650 3600 3650
+Wire Wire Line
+	3600 4050 4700 4050
+Wire Wire Line
+	4700 4050 4700 3950
+Wire Wire Line
+	3150 4200 3150 3650
+Wire Wire Line
+	3150 3650 3600 3650
+Connection ~ 3600 3650
+Wire Wire Line
+	3600 3650 3600 4050
+Wire Wire Line
+	3450 4200 3450 3800
+Wire Wire Line
+	3450 3800 3700 3800
+Wire Wire Line
+	3700 3800 3700 3500
+Connection ~ 3700 3500
+Wire Wire Line
+	3700 3500 4700 3500
+Wire Wire Line
+	3300 2150 3450 2150
+Wire Wire Line
+	3450 2150 3450 1800
+Wire Wire Line
+	3450 1800 4950 1800
+Wire Wire Line
+	4950 1800 4950 3200
+Wire Wire Line
+	4950 3750 4700 3750
+Wire Wire Line
+	4700 3200 4950 3200
+Connection ~ 4950 3200
+Wire Wire Line
+	4950 3200 4950 3750
+Wire Wire Line
+	8450 5100 8150 5100
+Connection ~ 8150 5100
+Wire Wire Line
+	8150 5100 8150 5150
+Wire Wire Line
+	6650 4700 6650 4850
+Wire Wire Line
+	6450 4850 6650 4850
+$Comp
+L Diode:1N4007 D1
+U 1 1 5EDCAED3
+P 7250 5050
+F 0 "D1" V 7204 5130 50  0000 L CNN
+F 1 "1N4007" V 7295 5130 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 7250 4875 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 7250 5050 50  0001 C CNN
+	1    7250 5050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7250 4700 7250 4800
+Wire Wire Line
+	7250 5200 7250 5250
+Wire Wire Line
+	7300 4800 7250 4800
+Connection ~ 7250 4800
+Wire Wire Line
+	7250 4800 7250 4900
+Wire Wire Line
+	7700 5250 7250 5250
+Connection ~ 7250 5250
+Wire Wire Line
+	7250 5250 7250 5300
+$Comp
+L meter_circuit:shunt R7
+U 1 1 5EDDF122
+P 6450 5200
+F 0 "R7" V 6404 5288 50  0000 L CNN
+F 1 "shunt" V 6495 5288 50  0000 L CNN
+F 2 "meter_circuit:1W2shunt" H 6450 5200 50  0001 C CNN
+F 3 "" H 6450 5200 50  0001 C CNN
+	1    6450 5200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6450 4950 6650 4950
+Wire Wire Line
+	6650 4950 6650 5350
+Wire Wire Line
+	6650 5350 6850 5350
+Wire Wire Line
+	6850 4850 6650 4850
+Connection ~ 6650 4850
+$Comp
+L meter_circuit:toggle_switch S1
+U 1 1 5EF70F97
+P 2500 1450
+F 0 "S1" H 2500 1715 50  0000 C CNN
+F 1 "toggle_switch" H 2500 1624 50  0000 C CNN
+F 2 "meter_circuit:toggle_switch" H 2500 1450 50  0001 C CNN
+F 3 "" H 2500 1450 50  0001 C CNN
+	1    2500 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 1450 5850 1450
+Wire Wire Line
+	5850 1450 5850 2000
+Wire Wire Line
+	2500 1650 2500 3550
+Wire Wire Line
+	2500 3550 3350 3550
+Wire Wire Line
+	3350 3550 3350 3450
+Wire Wire Line
+	3350 3450 3300 3450
+$Comp
+L power:GND #PWR014
+U 1 1 5EF7A492
+P 8150 5500
+F 0 "#PWR014" H 8150 5250 50  0001 C CNN
+F 1 "GND" H 8155 5327 50  0000 C CNN
+F 2 "" H 8150 5500 50  0001 C CNN
+F 3 "" H 8150 5500 50  0001 C CNN
+	1    8150 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L meter_circuit:jack_pin H2
+U 1 1 5ECA15FA
+P 6300 5500
+F 0 "H2" H 6378 5504 50  0000 L CNN
+F 1 "jack_pin" H 6378 5413 50  0000 L CNN
+F 2 "meter_circuit:jack_pin" H 6300 5500 50  0001 C CNN
+F 3 "" H 6300 5500 50  0001 C CNN
+	1    6300 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 5EF92990
+P 6500 5500
+F 0 "#PWR012" H 6500 5250 50  0001 C CNN
+F 1 "GND" V 6505 5372 50  0000 R CNN
+F 2 "" H 6500 5500 50  0001 C CNN
+F 3 "" H 6500 5500 50  0001 C CNN
+	1    6500 5500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6450 5450 6450 5500
+Wire Wire Line
+	6450 5500 6400 5500
+Wire Wire Line
+	7100 3900 7100 3300
+Wire Wire Line
+	7100 3300 6150 3300
+Wire Wire Line
+	7400 3900 7400 3200
+Wire Wire Line
+	7400 3200 6150 3200
+Wire Wire Line
+	8450 5100 8450 3100
+Wire Wire Line
+	8450 3100 6150 3100
+Wire Wire Line
+	7700 5250 7700 5850
+Wire Wire Line
+	7700 5850 8500 5850
+Wire Wire Line
+	8500 5850 8500 3000
+Wire Wire Line
+	8500 3000 6150 3000
+Wire Wire Line
+	6450 4850 6450 3400
+Wire Wire Line
+	6450 3400 6150 3400
+Wire Wire Line
+	5150 3600 5100 3600
+Wire Wire Line
+	5100 3600 5100 6000
+Wire Wire Line
+	5100 6000 7250 6000
+Wire Wire Line
+	7250 5600 7250 6000
+$EndSCHEMATC
